@@ -20,3 +20,10 @@ export const toggleTodo = id => {
         id
     };
 };
+
+export const clearTodos = id => {
+    return {
+        type: 'CLEAR_TODOS',
+        id
+    };
+};
