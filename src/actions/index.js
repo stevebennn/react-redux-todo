@@ -23,7 +23,6 @@ export const toggleTodo = id => {
 
 export const clearTodos = id => {
     return {
-        type: 'CLEAR_TODOS',
-        id
+        type: 'CLEAR_TODOS'
     };
 };

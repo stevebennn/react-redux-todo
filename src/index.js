@@ -9,7 +9,7 @@ import { createStore } from 'redux';
 import todoApp from './reducers';
 
 let store = createStore(todoApp);
-
+console.log(store.getState());
 ReactDOM.render(
     <Provider store={store}>
         <App />
